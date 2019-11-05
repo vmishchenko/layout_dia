@@ -1,0 +1,62 @@
+.whatwedo {
+  background-color: #fff;
+  position: relative;
+  text-align: center; }
+  .whatwedo__name {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    color: #253757;
+    position: absolute;
+    line-height: 1;
+    top: -0.5em;
+    left: 0;
+    right: 0; }
+  .whatwedo__contant {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 136px;
+    padding-bottom: 162px;
+    text-align: left; }
+  .whatwedo__block {
+    width: 264px; }
+  .whatwedo__image {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-bottom: 64px; }
+  .whatwedo__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 27px;
+    color: #253757;
+    margin-bottom: 32px; }
+  .whatwedo__subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #334563; }
+
+@media (max-width: 999px) {
+  .whatwedo__contant {
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+  .whatwedo__block {
+    margin-right: 32px;
+    margin-bottom: 86px; }
+    .whatwedo__block:last-child {
+      margin-bottom: 0; } }
+
+@media (max-width: 599px) {
+  .whatwedo__block {
+    margin-right: 0; } }
+
+/*# sourceMappingURL=whatwedo.css.map */
