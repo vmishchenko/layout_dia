@@ -26,25 +26,53 @@
     line-height: 45px;
     color: #253757;
     margin-bottom: 64px; }
+  .contacts_message {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
   .contacts__input {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     outline: none;
+    width: 656px;
     height: 30px;
+    line-height: 36px;
     max-width: 656px;
-    border-bottom: 1px solid #e1e1e1; }
+    border: 0;
+    background-color: #fcfcfd;
+    position: relative; }
+    .contacts__input:after {
+      content: "";
+      border-bottom: 1px solid #e1e1e1;
+      position: absolute;
+      top: 10px; }
+    .contacts__input::-webkit-input-placeholder {
+      color: black; }
+    .contacts__input::-moz-placeholder {
+      color: black; }
+    .contacts__input:-ms-input-placeholder {
+      color: black; }
+    .contacts__input::-ms-input-placeholder {
+      color: black; }
+    .contacts__input::placeholder {
+      color: black; }
   .contacts__button {
     display: inline-block;
     width: 226px;
     height: 56px;
     line-height: 56px;
+    font-size: 16px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     background-color: #2f80ed;
     border-radius: 64px;
     color: #fff;
     text-decoration: none;
-    margin-bottom: 256px; }
+    outline: none; }
     .contacts__button:hover {
       background-color: rgba(31, 63, 145, 0.9); }
     .contacts__button:active {

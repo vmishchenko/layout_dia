@@ -27,12 +27,14 @@
     width: 226px;
     height: 56px;
     line-height: 56px;
+    font-size: 16px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     background-color: #2f80ed;
     border-radius: 64px;
     color: #fff;
     text-decoration: none;
+    outline: none;
     margin-bottom: 256px; }
     .vision__button:hover {
       background-color: rgba(31, 63, 145, 0.9); }
