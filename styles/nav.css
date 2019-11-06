@@ -5,9 +5,9 @@
     display: -ms-flexbox;
     display: flex; }
   .nav__item {
-    margin-left: 63px; }
-    .nav__item:first-child {
-      margin-left: 0; }
+    margin-right: 63px; }
+    .nav__item:last-child {
+      margin-right: 0; }
   .nav__link {
     position: relative;
     color: #fff;
@@ -24,6 +24,8 @@
       position: absolute;
       bottom: 0;
       left: 0; }
+  .nav__hire {
+    margin-left: 135px; }
   @media (max-width: 999px) {
     .nav__list {
       -webkit-box-orient: vertical;
@@ -31,7 +33,9 @@
           -ms-flex-direction: column;
               flex-direction: column; }
     .nav__item {
-      margin-left: 0;
-      margin-bottom: 3px; } }
+      margin-right: 0;
+      margin-bottom: 3px; }
+    .nav__hire {
+      margin-left: 0; } }
 
 /*# sourceMappingURL=nav.css.map */

@@ -1,12 +1,11 @@
 .vision {
-  margin-top: -280px;
-  padding-top: 220px; }
+  margin-top: -50px; }
   .vision__container {
     background-image: url("../images/vision/vps-bg.svg");
     background-size: contain;
     background-repeat: no-repeat; }
   .vision__content {
-    width: 754px;
+    max-width: 754px;
     text-align: center;
     margin: auto; }
   .vision__title {
@@ -40,5 +39,8 @@
       background-color: rgba(31, 63, 145, 0.9); }
     .vision__button:active {
       background-color: rgba(21, 40, 88, 0.9); }
+  @media (max-width: 999px) {
+    .vision__button {
+      margin-bottom: 120px; } }
 
 /*# sourceMappingURL=vision.css.map */

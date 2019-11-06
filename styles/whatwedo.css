@@ -44,19 +44,18 @@
     font-size: 16px;
     line-height: 24px;
     color: #334563; }
-
-@media (max-width: 999px) {
-  .whatwedo__contant {
-    -ms-flex-pack: distribute;
-        justify-content: space-around; }
-  .whatwedo__block {
-    margin-right: 32px;
-    margin-bottom: 86px; }
-    .whatwedo__block:last-child {
-      margin-bottom: 0; } }
-
-@media (max-width: 599px) {
-  .whatwedo__block {
-    margin-right: 0; } }
+  @media (max-width: 999px) {
+    .whatwedo__contant {
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      padding-bottom: 0; }
+    .whatwedo__block {
+      margin-right: 32px;
+      margin-bottom: 86px; }
+      .whatwedo__block:last-child {
+        margin-bottom: 0; } }
+  @media (max-width: 599px) {
+    .whatwedo__block {
+      margin-right: 0; } }
 
 /*# sourceMappingURL=whatwedo.css.map */
