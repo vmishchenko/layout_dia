@@ -30,15 +30,25 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     background-color: #2f80ed;
+    background-image: -webkit-gradient(linear, right top, left top, from(#fcc304), to(#fcc304));
+    background-image: linear-gradient(to left, #fcc304, #fcc304);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
     border-radius: 64px;
     color: #fff;
     text-decoration: none;
     outline: none;
+    border: none;
     margin-bottom: 256px; }
     .vision__button:hover {
-      background-color: rgba(31, 63, 145, 0.9); }
+      background-color: #35509b;
+      background-image: -webkit-gradient(linear, right top, left top, from(#fcc304), to(#fcc304));
+      background-image: linear-gradient(to left, #fcc304, #fcc304);
+      background-size: 100% 100%;
+      background-repeat: no-repeat; }
     .vision__button:active {
-      background-color: rgba(21, 40, 88, 0.9); }
+      -webkit-transform: scale(0.95, 0.95);
+              transform: scale(0.95, 0.95); }
   @media (max-width: 999px) {
     .vision__container {
       background: none; }

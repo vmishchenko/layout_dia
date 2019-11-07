@@ -49,6 +49,9 @@
     .header__button:hover {
       color: #fff;
       background-color: #253757; }
+    .header__button:active {
+      -webkit-transform: scale(0.95, 0.95);
+              transform: scale(0.95, 0.95); }
   @media (max-width: 1147px) {
     .header__top {
       padding-left: 15px; } }

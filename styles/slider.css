@@ -91,8 +91,12 @@
           justify-content: space-between; }
   .socials__link {
     color: #253757; }
-    .socials__link:hover {
-      color: #fcc304; }
+    .socials__link:nth-child(1):hover {
+      color: #3b5998; }
+    .socials__link:nth-child(2):hover {
+      color: #e1416c; }
+    .socials__link:nth-child(3):hover {
+      color: #43a1f2; }
 
 @media (max-width: 1299px) {
   .slider__arrows {

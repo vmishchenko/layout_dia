@@ -89,6 +89,9 @@ ul {
     .header__button:hover {
       color: #fff;
       background-color: #253757; }
+    .header__button:active {
+      -webkit-transform: scale(0.95, 0.95);
+              transform: scale(0.95, 0.95); }
   @media (max-width: 1147px) {
     .header__top {
       padding-left: 15px; } }
@@ -139,18 +142,42 @@ ul {
       left: 0; }
   .nav__hire {
     margin-left: 135px; }
+  .nav__toggle {
+    display: none; }
   @media (max-width: 999px) {
     .nav__list {
+      display: none;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column;
       margin-top: 20px;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      background-color: #56ccf2;
+      height: -webkit-max-content;
+      height: -moz-max-content;
+      height: max-content;
+      width: 100vh; }
     .nav__item {
       margin-right: 0; }
     .nav__hire {
-      margin-left: 0; } }
+      margin-left: 0; }
+    .nav__toggle-button {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      margin-top: 15px;
+      background-image: url("../images/nav/menu.svg");
+      background-size: contain;
+      background-repeat: no-repeat; }
+    .nav__toggle:checked ~ .nav__list {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-transform: translateY(0);
+              transform: translateY(0); }
+    .nav__toggle:checked ~ .nav__toggle-button {
+      background-image: url("../images/nav/cross.svg"); } }
 
 .slider-section {
   display: -webkit-box;
@@ -245,8 +272,12 @@ ul {
           justify-content: space-between; }
   .socials__link {
     color: #253757; }
-    .socials__link:hover {
-      color: #fcc304; }
+    .socials__link:nth-child(1):hover {
+      color: #3b5998; }
+    .socials__link:nth-child(2):hover {
+      color: #e1416c; }
+    .socials__link:nth-child(3):hover {
+      color: #43a1f2; }
 
 @media (max-width: 1299px) {
   .slider__arrows {
@@ -684,6 +715,9 @@ ul {
     background: #fefefe;
     -webkit-box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.05);
             box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.05); }
+    .testimonials__block:hover {
+      -webkit-transform: scale(0.96, 0.96);
+              transform: scale(0.96, 0.96); }
   .testimonials__photo-block {
     position: relative;
     height: 185px;
@@ -794,15 +828,25 @@ ul {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     background-color: #2f80ed;
+    background-image: -webkit-gradient(linear, right top, left top, from(#fcc304), to(#fcc304));
+    background-image: linear-gradient(to left, #fcc304, #fcc304);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
     border-radius: 64px;
     color: #fff;
     text-decoration: none;
     outline: none;
+    border: none;
     margin-bottom: 256px; }
     .vision__button:hover {
-      background-color: rgba(31, 63, 145, 0.9); }
+      background-color: #35509b;
+      background-image: -webkit-gradient(linear, right top, left top, from(#fcc304), to(#fcc304));
+      background-image: linear-gradient(to left, #fcc304, #fcc304);
+      background-size: 100% 100%;
+      background-repeat: no-repeat; }
     .vision__button:active {
-      background-color: rgba(21, 40, 88, 0.9); }
+      -webkit-transform: scale(0.95, 0.95);
+              transform: scale(0.95, 0.95); }
   @media (max-width: 999px) {
     .vision__container {
       background: none; }
@@ -889,15 +933,25 @@ ul {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     background-color: #2f80ed;
+    background-image: -webkit-gradient(linear, right top, left top, from(#fcc304), to(#fcc304));
+    background-image: linear-gradient(to left, #fcc304, #fcc304);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
     border-radius: 64px;
     color: #fff;
     text-decoration: none;
     outline: none;
+    border: none;
     margin-top: 101px; }
     .message__button:hover {
-      background-color: rgba(31, 63, 145, 0.9); }
+      background-color: #35509b;
+      background-image: -webkit-gradient(linear, right top, left top, from(#fcc304), to(#fcc304));
+      background-image: linear-gradient(to left, #fcc304, #fcc304);
+      background-size: 100% 100%;
+      background-repeat: no-repeat; }
     .message__button:active {
-      background-color: rgba(21, 40, 88, 0.9); }
+      -webkit-transform: scale(0.95, 0.95);
+              transform: scale(0.95, 0.95); }
   @media (max-width: 999px) {
     .message__title {
       margin-bottom: 40px; }
