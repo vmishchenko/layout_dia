@@ -40,6 +40,8 @@
     .vision__button:active {
       background-color: rgba(21, 40, 88, 0.9); }
   @media (max-width: 999px) {
+    .vision__container {
+      background: none; }
     .vision__button {
       margin-bottom: 120px; } }
 

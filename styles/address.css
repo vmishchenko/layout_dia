@@ -66,6 +66,10 @@
     height: 32px; }
   @media (max-width: 999px) {
     .address {
-      margin-left: 0; } }
+      margin-left: 0; }
+      .address__list {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; } }
 
 /*# sourceMappingURL=address.css.map */

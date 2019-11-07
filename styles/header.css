@@ -49,6 +49,9 @@
     .header__button:hover {
       color: #fff;
       background-color: #253757; }
+  @media (max-width: 1147px) {
+    .header__top {
+      padding-left: 15px; } }
   @media (max-width: 999px) {
     .header {
       height: -webkit-max-content;
@@ -56,10 +59,15 @@
       height: max-content;
       background: #56ccf2; }
       .header__top {
+        padding-left: 0;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column; }
+      .header__title {
+        font-size: 44px; }
+      .header__subtitle {
+        font-size: 22px; }
       .header__text-logo {
         margin-right: 0; } }
 

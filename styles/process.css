@@ -126,7 +126,7 @@
         flex-wrap: wrap; }
   .definition {
     width: 100%;
-    margin-bottom: 120px; }
+    margin-bottom: 80px; }
   .points__block {
     margin-right: 0; }
     .points__block:first-child, .points__block:last-child {
@@ -137,7 +137,9 @@
     -ms-flex-pack: distribute;
         justify-content: space-around; }
     .points__block {
-      margin-bottom: 80px; } }
+      margin-bottom: 80px; }
+      .points__block:first-child, .points__block:nth-child(2) {
+        margin-bottom: 80px; } }
 
 @media (max-width: 499px) {
   .points__block {

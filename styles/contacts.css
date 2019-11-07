@@ -2,8 +2,10 @@
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr; }
-  @media (max-width: 999px) {
+  @media (max-width: 769px) {
     .contacts {
-      grid-template-columns: 1fr; } }
+      grid-template-columns: 1fr; }
+      .contacts__message {
+        padding-right: 0; } }
 
 /*# sourceMappingURL=contacts.css.map */

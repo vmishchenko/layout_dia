@@ -79,17 +79,27 @@
       background-image: url("../images/features/features-item-icon-3.svg"); }
   @media (max-width: 1159px) {
     .features {
-      height: 760px;
-      padding-top: 160px; }
-      .features__image {
-        display: none; } }
+      height: -webkit-max-content;
+      height: -moz-max-content;
+      height: max-content;
+      padding-top: 160px; } }
   @media (max-width: 999px) {
+    .features__subtitle {
+      margin-bottom: 124px; }
+    .features__image {
+      display: none; }
     .features__left {
       max-width: 100%; }
     .features__elements {
       margin: auto;
       width: -webkit-max-content;
       width: -moz-max-content;
-      width: max-content; } }
+      width: max-content; }
+    .features__point {
+      margin-left: 0;
+      margin-bottom: 124px; }
+      .features__point:before {
+        left: calc(64px + 32px);
+        top: -84px; } }
 
 /*# sourceMappingURL=features.css.map */

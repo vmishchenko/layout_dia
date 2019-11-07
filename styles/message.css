@@ -81,7 +81,10 @@
     .message__title {
       margin-bottom: 40px; }
     .message__button {
-      margin-top: 40px;
-      margin-bottom: 80px; } }
+      margin: 40px auto 80px; } }
+  @media (max-width: 769px) {
+    .message {
+      padding-right: 0;
+      margin-bottom: 40px; } }
 
 /*# sourceMappingURL=message.css.map */

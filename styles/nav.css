@@ -31,10 +31,11 @@
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
-              flex-direction: column; }
+              flex-direction: column;
+      margin-top: 20px;
+      margin-bottom: 20px; }
     .nav__item {
-      margin-right: 0;
-      margin-bottom: 3px; }
+      margin-right: 0; }
     .nav__hire {
       margin-left: 0; } }
 

@@ -102,7 +102,7 @@
     position: relative;
     top: 0;
     left: 0;
-    margin: 15px auto 0;
+    margin: 40px auto 0;
     -webkit-transform: rotate(0);
             transform: rotate(0); } }
 
@@ -112,8 +112,8 @@
     height: 520px;
     padding-top: 41px; }
   .slider__arrows {
-    top: calc(520px - 80px);
-    left: calc(100% - 180px + 60px); }
+    top: calc(520px - 20px);
+    left: calc(50% - 48px); }
     .slider__arrows .arrow {
       line-height: 39px;
       width: 48px;
