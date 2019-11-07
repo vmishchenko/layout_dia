@@ -138,7 +138,7 @@ ul {
       background-color: #fcc304;
       border-radius: 2px;
       position: absolute;
-      bottom: 0;
+      bottom: -10px;
       left: 0; }
   .nav__hire {
     margin-left: 135px; }
@@ -164,8 +164,8 @@ ul {
       margin-left: 0; }
     .nav__toggle-button {
       display: inline-block;
-      width: 32px;
-      height: 32px;
+      width: 26px;
+      height: 26px;
       margin-top: 15px;
       background-image: url("../images/nav/menu.svg");
       background-size: contain;
@@ -1034,7 +1034,9 @@ ul {
       .address__list {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
-                justify-content: center; } }
+                justify-content: center; }
+      .address__point:last-child {
+        margin-right: 0; } }
 
 .footer {
   display: -webkit-box;
@@ -1081,7 +1083,7 @@ ul {
             -ms-flex-direction: column;
                 flex-direction: column;
         margin-bottom: 30px; }
-      .footer__link {
+      .footer__point, .footer__link {
         margin-right: 0;
         line-height: 26px; } }
 

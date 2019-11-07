@@ -22,7 +22,7 @@
       background-color: #fcc304;
       border-radius: 2px;
       position: absolute;
-      bottom: 0;
+      bottom: -10px;
       left: 0; }
   .nav__hire {
     margin-left: 135px; }
@@ -48,8 +48,8 @@
       margin-left: 0; }
     .nav__toggle-button {
       display: inline-block;
-      width: 32px;
-      height: 32px;
+      width: 26px;
+      height: 26px;
       margin-top: 15px;
       background-image: url("../images/nav/menu.svg");
       background-size: contain;

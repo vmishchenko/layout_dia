@@ -43,7 +43,7 @@
             -ms-flex-direction: column;
                 flex-direction: column;
         margin-bottom: 30px; }
-      .footer__link {
+      .footer__point, .footer__link {
         margin-right: 0;
         line-height: 26px; } }
 

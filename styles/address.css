@@ -70,6 +70,8 @@
       .address__list {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
-                justify-content: center; } }
+                justify-content: center; }
+      .address__point:last-child {
+        margin-right: 0; } }
 
 /*# sourceMappingURL=address.css.map */
